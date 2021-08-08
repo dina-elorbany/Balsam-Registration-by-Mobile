@@ -1,0 +1,100 @@
+#main-form {
+  width: 65%;
+}
+
+.overlay {
+  display: none;
+}
+
+.reg-header {
+  font-weight: 900;
+}
+
+input,
+select {
+  background-color: rgb(241, 246, 253);
+  border: 1px solid rgb(227, 240, 251);
+  border-radius: 8px;
+  color: rgb(123, 145, 166);
+  padding: 15px 10px;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(123, 145, 166);
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.p-verify {
+  font-weight: 700;
+}
+
+.checkbox-wrapper {
+  display: block;
+  margin-right: 20px;
+  width: 80%;
+}
+
+.btn-continue {
+  background-color: var(--medium);
+  color: #ffff;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+hr {
+  border-top: 2px solid rgb(132, 184, 243) !important;
+}
+
+.link {
+  font-weight: 700;
+}
+
+/* SCROLL */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(132, 184, 243);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(132, 184, 243);
+  border-radius: 10px;
+}
+
+/* MEDIA_QUERY */
+@media screen and (max-width: 780px) {
+  #main-form {
+    width: 100%;
+  }
+  .background {
+    opacity: 0.5;
+  }
+
+  .form-wrapper {
+    background-image: url("../../assets/cover.png");
+    background-blend-mode: screen;
+    background-color: rgba(233, 233, 233, 0.651);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 100%;
+  }
+}

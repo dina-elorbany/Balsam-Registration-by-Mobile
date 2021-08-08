@@ -1,0 +1,12 @@
+.left-side {
+  width: 48vw;
+  height: 125vh;
+  object-fit: cover;
+}
+
+/* MEDIA_QUERY */
+@media screen and (max-width: 780px) {
+  .cover {
+    display: none;
+  }
+}
